@@ -4,8 +4,20 @@ const app = express();
 
 const port = 8888;
 
+app.use(express.json)
+
 app.get('/accounts/users', (request, reponse) => {
-  return reponse.json({message: 'Hello world!'});
+
+  const users = [
+    {
+      name: 'Leandro',
+      lastname: 'M Silva',
+      username: 'leo',
+      document: '465.387.398-58'
+    }
+  ];
+
+  return reponse.json({data: users});
 })
 
 app.listen(port, () => {
