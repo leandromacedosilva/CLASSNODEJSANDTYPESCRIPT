@@ -8,7 +8,7 @@ app.use(express.json)
 
 app.get('/', (request, reponse) => {
 
-  return reponse.json({data: 'HELLO WORLD!'});
+  return reponse.json({message: 'Hello world, estou utilizado TypeScript'});
 })
 
 app.listen(port, () => {
