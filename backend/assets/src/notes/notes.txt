@@ -1,3 +1,13 @@
+/********* notas da aula de 18/07/2022 
+ * no arquivo CreateCouseServer.ts deifnimos as variáveis
+ *  -----------------------------------------------------
+ *  name     - > string 
+ *  duration - > number
+ *  educator - > string
+ *  -----------------------------------------------------
+ */
+
+
 /* diferenças entre JavaScript e TypeScript */
 ----------------------------------------------
 /* TypeScript */
