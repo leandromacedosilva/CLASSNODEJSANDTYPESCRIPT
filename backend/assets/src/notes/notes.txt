@@ -5,6 +5,7 @@
  *  duration - > number
  *  educator - > string
  *  -----------------------------------------------------
+ *  stop in 22:13 of class in date 18/07/2022
  */
 
 
