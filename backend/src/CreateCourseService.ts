@@ -4,7 +4,7 @@ class CreateCouseService {
         duration: number,
         educator: string
     ){
-        console.log(name, duration,educator);
+        console.log(name, duration, educator);
     }
 }
 
