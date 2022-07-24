@@ -68,9 +68,27 @@ yarn add ts-node-dev -D
 // execution file in TYPESCRIPT
 yarn ts-node-dev path/filename.ts 
 
+// install package ESLINT
+yarn add eslint -D
+
+// initialising ESLINT
+yarn eslint --init      |      npm init @eslint/config
+
+> To check syntax, find problems, and enforce code style
+> JavaScript modules (import/export)
+> None of these
+√ Does your project use TypeScript? · No / Yes*
+√ Node
+> Use a popular style guide
+> Airbnb: https://github.com/airbnb/javascript
+> JSON
+? Would you like to install them now? » No* / Yes
+
 ---------------------------------------------- demais packages a serem instados no projeto ----------------------------------------------------
 yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
 ------------------------------------------------------------------------------------------------------------------------------------------------
 @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
+@typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 yarn add -D eslint-plugin-import-helpers eslint-import-resolver-typescript
+
