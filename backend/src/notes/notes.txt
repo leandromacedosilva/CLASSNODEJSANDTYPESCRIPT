@@ -5,7 +5,7 @@
  *  duration - > number
  *  educator - > string
  *  -----------------------------------------------------
- *  stop in 23:58 of class in date 18/07/2022
+ *  stop in 55:23 of class in date 18/07/2022
  */
 
 /* diferenças entre JavaScript e TypeScript */
