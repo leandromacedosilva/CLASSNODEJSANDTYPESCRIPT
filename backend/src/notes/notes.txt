@@ -67,7 +67,7 @@ yarn add ts-node-dev -D
 
 // execution file in TYPESCRIPT
 yarn ts-node-dev path/filename.ts 
--------------------------------------------------------------------------------------
+
 ---------------------------------------------- demais packahes a serem instados no projeto ----------------------------------------------------
 yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
 ------------------------------------------------------------------------------------------------------------------------------------------------
