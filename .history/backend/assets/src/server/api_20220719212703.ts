@@ -7,7 +7,7 @@ const port = 8888;
 app.use(express.json)
 
 app.get('/accounts/users', (request, reponse) => {
-  return reponse.json({message: 'Hello World, estou utilizando TypeScript'})
+  return reponse.json();
 })
 
 app.listen(port, () => {
